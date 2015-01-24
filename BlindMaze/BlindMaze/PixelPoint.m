@@ -10,7 +10,11 @@
 
 @implementation PixelPoint
 
--(bool)pointNearOtherPoint:(PixelPoint*) otherPoint inRadius:(int)radius{
+/*
+ Constructor should require xCord and yCord
+ */
+
+-(bool) isNearOtherPoint:(PixelPoint *)otherPoint inRadius:(int)radius{
     return(abs(otherPoint.xCord-self.xCord)<=radius && abs(otherPoint.yCord-self.yCord) <=radius);
 }
 

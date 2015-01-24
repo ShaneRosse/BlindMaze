@@ -16,6 +16,8 @@
 		346A13F81A735F4B00E6786E /* MazeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346A13F71A735F4B00E6786E /* MazeViewController.m */; };
 		346A13FB1A735F5B00E6786E /* MazeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 346A13FA1A735F5B00E6786E /* MazeView.m */; };
 		346A13FE1A735F6900E6786E /* Player1.m in Sources */ = {isa = PBXBuildFile; fileRef = 346A13FD1A735F6900E6786E /* Player1.m */; };
+		D286F1561A74024D00F29127 /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = D286F1551A74024D00F29127 /* Grid.m */; };
+		D2CD17801A740C4D0023B327 /* PixelPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CD177F1A740C4D0023B327 /* PixelPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,10 @@
 		346A13FA1A735F5B00E6786E /* MazeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MazeView.m; sourceTree = "<group>"; };
 		346A13FC1A735F6900E6786E /* Player1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player1.h; sourceTree = "<group>"; };
 		346A13FD1A735F6900E6786E /* Player1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player1.m; sourceTree = "<group>"; };
+		D286F1541A74024D00F29127 /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
+		D286F1551A74024D00F29127 /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
+		D2CD177E1A740C4D0023B327 /* PixelPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PixelPoint.h; sourceTree = "<group>"; };
+		D2CD177F1A740C4D0023B327 /* PixelPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PixelPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,10 @@
 				346A13F91A735F5B00E6786E /* MazeView.h */,
 				346A13FA1A735F5B00E6786E /* MazeView.m */,
 				346A13FC1A735F6900E6786E /* Player1.h */,
+				D286F1541A74024D00F29127 /* Grid.h */,
+				D286F1551A74024D00F29127 /* Grid.m */,
+				D2CD177E1A740C4D0023B327 /* PixelPoint.h */,
+				D2CD177F1A740C4D0023B327 /* PixelPoint.m */,
 				346A13FD1A735F6900E6786E /* Player1.m */,
 				346A13DA1A735E9F00E6786E /* Main.storyboard */,
 				346A13DD1A735E9F00E6786E /* Images.xcassets */,
@@ -230,10 +240,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				346A13D61A735E9F00E6786E /* AppDelegate.m in Sources */,
+				D286F1561A74024D00F29127 /* Grid.m in Sources */,
 				346A13FB1A735F5B00E6786E /* MazeView.m in Sources */,
 				346A13D31A735E9F00E6786E /* main.m in Sources */,
 				346A13F81A735F4B00E6786E /* MazeViewController.m in Sources */,
 				346A13FE1A735F6900E6786E /* Player1.m in Sources */,
+				D2CD17801A740C4D0023B327 /* PixelPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -79,12 +79,18 @@
 }
 
 
+
+/*To avoid excessive array checking
+ 1)store previous touch's point
+ 2)if current touch's point is more than 5 away from prev touch's point, 
+ call playMove function
+ */
 - (void)touchesMoved:(NSSet *)touches
            withEvent:(UIEvent *)event
 {
     // Let's put in a log statement to see the order of events
     NSLog(@"%@", NSStringFromSelector(_cmd));
-    
+    NSLog(@"NEW TOUCHES MOVED");
     for (UITouch *t in touches) {
         NSValue *key = [NSValue valueWithNonretainedObject:t];
         Player1 *player1 = self.linesInProgress[key];
@@ -126,7 +132,7 @@
     double green = arc4random() % 255 / 255.0;
     double blue = arc4random() % 255 / 255.0;
     UIColor *color = [UIColor colorWithRed:red green:green blue:blue alpha:1.0];
-    NSLog(@"%@", color);
+    //NSLog(@"%@", color);
     return color;
 }
 
