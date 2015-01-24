@@ -18,4 +18,7 @@
     return(abs(otherPoint.xCord-self.xCord)<=radius && abs(otherPoint.yCord-self.yCord) <=radius);
 }
 
+
+
+
 @end

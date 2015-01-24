@@ -101,10 +101,7 @@
         CGPoint pointOnScreen = [t.view convertPoint:point fromView:nil];
         NSLog(@"Point - %f, %f", pointOnScreen.x, pointOnScreen.y);
         NSLog(@"Touch");
-        self.backgroundColor = [self randomColor];
-        if ((pointOnScreen.x < 100 || pointOnScreen.x > 300)) {
-            //self.backgroundColor = [UIColor blackColor];
-        }
+        self.backgroundColor = [self randomColor]; //change this to peter's method
     }
     
     
